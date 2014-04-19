@@ -4,6 +4,22 @@
 	"draw_indent_guides": true,
 	"font_face": "ゆたぽん（コーディング）",
 	"font_size": 11,
+	"git_executables":
+	{
+		"git":
+		[
+			"/usr/local/bin/git"
+		],
+		"git_flow":
+		[
+			"/usr/local/bin/git",
+			"flow"
+		],
+		"legit":
+		[
+			"legit"
+		]
+	},
 	"highlight_line": false,
 	"ignored_packages":
 	[
@@ -13,11 +29,5 @@
 	"scroll_past_end": true,
 	"scroll_speed": 1.0,
 	"theme": "Flatland Dark.sublime-theme",
-	"word_wrap": "off",
-	"git_executables":
-	{
-	"git": ["/usr/local/bin/git"],
-	"git_flow": ["/usr/local/bin/git", "flow"],
-	"legit": ["legit"]
-	}
+	"word_wrap": false
 }
